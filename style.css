@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #fdf6f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background: #f48fb1;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+nav ul li {
+    margin: 0 15px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
